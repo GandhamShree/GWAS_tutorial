@@ -1,0 +1,1 @@
+This is a basic GWAS tutorial for beginners. The convert_tped_to_hapamp.pl is already available in the internet and again given here for your reference. The rest of the sciprts are custonized scripts of our lab
