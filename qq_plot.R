@@ -1,0 +1,5 @@
+library(qqman)
+tiff(res = 300, "QQ.tiff",units = "cm",width = 15, height =10 )
+man <- read.table("pvalue_decoded.txt", header=T)
+qq(man$p, pch = 19, col = "blue4", cex = 0.25, las = 2)
+dev.off()
